@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+}
+.cream {
+    background-color: #feeee3;
+}
+
+.blue {
+    background-color: blue;
+}
+
+div{
+    height: 100vh;
+}
+
+.left {
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Lato', sans-serif;
+    color: #2c2f83;
+    width: 40%;
+}
+
+#utilities {
+    font-size: 72px;
+    font-family: 'Lato', sans-serif;
+    color: #2c2f83;
+}
