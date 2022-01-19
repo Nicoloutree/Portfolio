@@ -47,3 +47,7 @@ h1 {
     font-family: 'Lato', sans-serif;
     color: #2c2f83;
 }
+
+#blue {
+    display: flex;
+}

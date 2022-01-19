@@ -14,14 +14,14 @@
         <header>
             <h2><a href="#home">Home</a></h2>
             <nav>
-                <li><a href="#about_me">About me</a></li>
-                <li><a href="#my_projects">My Projects</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about_me">À Propos</a></li>
+                <li><a href="#my_projects">Mes Projets</a></li>
+                <li><a href="#contacts">Me Contacter</a></li>
             </nav>
         </header>
         <div class="cream" id="home">
             <div class="left">
-                <h1>Introducing Stoll Nicolas</h1>
+                <h1>Portfolio Stoll Nicolas</h1>
             </div>
             <div class="right">
                 <img src="../public/images/Trabajo_verano.jpg" id="intro_img"> 
@@ -29,85 +29,70 @@
         </div>
         <div class="cream2" id="about_me">
             <div class="title">
-                <h1>About me</h1>
+                <h1>À Propos</h1>
             </div>
             <div class="text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
-                    enim laudantium, animi veniam libero eveniet culpa unde perferendis
-                    illo fugit corporis, voluptatibus totam dolorum, maiores magnam
-                    officia. Ab, delectus.
+                <img src=../public/images/me.jpg id="my_img">
+                <p>Actuellement étudiant en DUT informatique, et bientôt étudiant à l'université de Limerick dans le cadre d'un Erasmus,
+                à travers se portfolio je vous propose de découvrir les différents projets que j'ai eu l'occasion de réaliser lors de mon DUT.
+                Ces projets m'ont permis d'acquerir un certain nombres de connaissances et compétences, parmis celle-ci les plus importante étant,
+                la programmation dans différent langage, l'algorithmique avancé, la gestion et création de base de données, et bien d'autres compétences
+                professionnels.
                 </p>
             </div>
         </div>
         <main class="container" id="my_projects">
-            <h1 class="title">My projects</h1>
+            <h1 class="title">Mes Projets</h1>
             <section class="card">
-                <img src="https://i.ibb.co/VvC0vpN/paint-1.png" alt=""/>
+                <img src="../public/images/chocolat.png" alt=""/>
                 <div>
-                    <h3>Acrylic Painting One</h3>
+                    <h3>Site sur le chocolat</h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
-                    enim laudantium, animi veniam libero eveniet culpa unde perferendis
-                    illo fugit corporis, voluptatibus totam dolorum, maiores magnam
-                    officia. Ab, delectus.
+                    En tant que premier projet, il consistait en un site statique présentant différent aspects d'un theme choisi selon nos préférences
+                    parmis trois sujets imposés. En l'occurence ici il s'agit du chocolat, il a fallu donc effectuer de long travaux de recherche vis-à-vis
+                    du sujet ainsi que le developpement entier du site à partir des recherches.
                     </p>
-                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="btn">En savoir plus</a>
                 </div>
             </section>
 
             <section class="card" data-aos="fade-left">
-                <img src="https://i.ibb.co/3NHjDcW/paint-2.png" alt="" />
+                <img src="../public/images/nim_game.png" alt="" />
                 <div>
-                    <h3>Acrylic Painting Two</h3>
+                    <h3>Jeu de Nim</h3>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
-                    enim laudantium, animi veniam libero eveniet culpa unde perferendis
-                    illo fugit corporis, voluptatibus totam dolorum, maiores magnam
-                    officia. Ab, delectus.
+                    Lors du premier semestre de DUT informatique, il nous a été demander de développer en langage
+                    de programmation C un jeu de nim. Il comportait notamment la création d'un ordinateur contre le quel nous nous battons,
+                    ainsi que divers paramètres pour que le jeu diffère à chaque parties.
                     </p>
-                    <a href="#" class="btn">Buy Now</a>
+                    <a href="#" class="btn">En savoir plus</a>
                 </div>
             </section>
 
             <section class="card" data-aos="fade-right">
-                <img src="https://i.ibb.co/0VywMkW/paint-3.png" alt="" />
+                <img src="../public/images/CPOA.PNG" alt="" />
                 <div>
-                <h3>Acrylic Painting Three</h3>
+                <h3>Projet CPOA</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
-                    enim laudantium, animi veniam libero eveniet culpa unde perferendis
-                    illo fugit corporis, voluptatibus totam dolorum, maiores magnam
-                    officia. Ab, delectus.
+                Au cours du semestre 3 nous avons réaliser en groupe de 2, un projet Java permettant la gestion complète de la société RevuesOnLine, 
+                qui commercialise des abonnements à des magazines, revues et journaux. Celui-ci comportait notamment une DAO a des fin d'hydratation de la base de donnée.
                 </p>
-                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="btn">En savoir plus</a>
                 </div>
             </section>
 
             <section class="card" data-aos="fade-left">
-                <img src="https://i.ibb.co/5LkJFRP/paint-4.png" alt="" />
+                <img src="../public/images/forum.png" alt="" />
                 <div>
-                <h3>Acrylic Painting Four</h3>
+                <h3>Forum en ligne</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
-                    enim laudantium, animi veniam libero eveniet culpa unde perferendis
-                    illo fugit corporis, voluptatibus totam dolorum, maiores magnam
-                    officia. Ab, delectus.
+                Dans le cadre de mon troisième semestre de DUT informatique, en groupe de trois,
+                nous avons développer un forum en ligne permettant la création de fils de discussions.
+                Celui-ci a été créé en utilisant les language HTML5, CSS3 ainsi que PHP7. Pour ce qui est
+                du stockage des informations, celle-ci ont été stocker dans une base de données se trouvant 
+                sur les serveurs de l'université de lorraine.
                 </p>
-                <a href="#" class="btn">Buy Now</a>
-                </div>
-            </section>
-
-            <section class="card" data-aos="fade-right">
-                <img src="https://i.ibb.co/61R8Q2y/paint-5.png" alt="" />
-                <div>
-                <h3>Acrylic Painting Five</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
-                    enim laudantium, animi veniam libero eveniet culpa unde perferendis
-                    illo fugit corporis, voluptatibus totam dolorum, maiores magnam
-                    officia. Ab, delectus.
-                </p>
-                <a href="#" class="btn">Buy Now</a>
+                <a href="#" class="btn">En savoir plus</a>
                 </div>
             </section>
         </main>
@@ -115,8 +100,43 @@
         <script>
             AOS.init();
         </script>
-        <div id="contacts">
-
+        <div class="cream2" id="contacts">
+            <div id="blue">
+                <div class="title">
+                    <h1>Me Contacter</h1>
+                </div>
+                <div id="formulaire">
+                    <form method="POST" name="myemailform" action="form-to-mail.php">
+                        <div>
+                            <label for="name">Name*</label><br>
+                            <input type="text" name="name" placeholder="Enter your name" size="50">
+                        </div>
+                        <div>
+                            <label for="address">Address</label><br>
+                            <input type="text" name="address" placeholder="Enter your address" size="50">
+                        </div>
+                        <div id="info">
+                            <div>
+                                <label for="email">Email*</label><br>
+                                <input type="text" name="email" placeholder="Enter your email" size="20">
+                            </div>
+                            <div>
+                                <label for="phone">Phone</label><br>
+                                <input type="text" name="phone" placeholder="Enter your phone number" size="20">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="subject">Subject*</label><br>
+                            <input type="text" name="subject" placeholder="Type the subject" size="50">
+                        </div>
+                        <div>
+                            <label for="message">Message</label><br>
+                            <textarea name="message" placeholder="Type your message here..." size="50" id="message"></textarea>
+                        </div>
+                        <input type="submit" name="submit" id="submit_button">
+                    </form>
+                </div>
+            </div>
         </div>
     </body>
 </html>
